@@ -1,11 +1,21 @@
 {
   "name": "botpress-irc",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "IRC for Botpress.",
   "main": "bin/node.bundle.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:TheFreakLord/botpress-irc.git"
+  },
+  "keywords": [
+    "irc",
+    "botpress"
+  ],
+  "version-manager": {
+    "warn": "",
+    "botpress-check": ">= 0.1 < 1",
+    "botpress-update": "^0.x",
+    "module-downgrade": "~1.0.x"
   },
   "botpress": {
     "menuText": "botpress-irc",
@@ -45,6 +55,7 @@
     "webpack": "^1.13.3"
   },
   "dependencies": {
+    "botpress-version-manager": "^1.0.2",
     "irc": "^0.5.2",
     "node-irc": "0.0.4"
   }
