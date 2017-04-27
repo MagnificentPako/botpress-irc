@@ -1,6 +1,6 @@
 {
   "name": "botpress-irc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "IRC for Botpress.",
   "main": "bin/node.bundle.js",
   "repository": {
@@ -20,7 +20,8 @@
   "botpress": {
     "menuText": "botpress-irc",
     "menuIcon": "view_module",
-    "webBundle": "bin/web.bundle.js"
+    "webBundle": "bin/web.bundle.js",
+    "noInterface": true
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
